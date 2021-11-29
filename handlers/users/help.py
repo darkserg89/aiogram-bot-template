@@ -10,6 +10,7 @@ async def bot_help(message: types.Message):
             "/start - Начать диалог",
             "/help - Получить справку",
             "/form - Ввести данные пользователя",
-            "/myuserid - Получить данные по своему id")
+            "/myuserid - Получить данные по своему id",
+            "/call - Сделать звонок")
     
     await message.answer("\n".join(text))

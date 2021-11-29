@@ -1,4 +1,4 @@
-from . import info
+from . import form
 from . import help
 from . import start
 from . import echo
